@@ -8,6 +8,8 @@
 *.war
 *.ear
 target/
+out/
+lib/
 
 # idea
 .idea/
