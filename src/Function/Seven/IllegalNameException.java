@@ -1,4 +1,4 @@
-package Function.Six;
+package Function.Seven;
 
 import java.lang.Exception;
 
@@ -9,6 +9,7 @@ public class IllegalNameException extends Exception{
     public IllegalNameException(){
 
     }
+
     public IllegalNameException(String msg){
         super(msg);
     }

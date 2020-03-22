@@ -1,10 +1,13 @@
 package Function;
 
+import Function.Eight.function_eight;
 import Function.Five.function_five;
 import Function.Four.function_four;
 import Function.One.function_one;
-import Function.Six.IllegalNameException;
-import Function.Six.function_six;
+
+import Function.Seven.IllegalNameException;
+import Function.Seven.function_six;
+import Function.Six.function_seven;
 import Function.Three.function_three;
 import Function.Two.function_two;
 
@@ -18,7 +21,7 @@ public class first {
         System.out.print("Please input the function number:");
         Scanner s = new Scanner(System.in);
         String str1 =s.nextLine();
-        if(str1.contains("1") || str1.contains("2") || str1.contains("3") || str1.contains("4") || str1.contains("5") || str1.contains("6")) {
+        if(str1.contains("1") || str1.contains("2") || str1.contains("3") || str1.contains("4") || str1.contains("5") || str1.contains("6") || str1.contains("7") || str1.contains("8")) {
             int select_number1 = Integer.parseInt(str1);
             switch (select_number1) {
                 case 1:
@@ -45,6 +48,14 @@ public class first {
                     System.out.println("You have choose Function six");
                     function_six.bassic_function();
                     break;
+                case 7:
+                    System.out.println("You have choose Function seven");
+                    function_seven.bassic_function();
+                    break;
+                case 8:
+                    System.out.println("You have choose Function eight");
+                    function_eight.bassic_function();
+                    break;
                 default:
                     System.out.println("Unkown wrong");
                     break;
@@ -59,5 +70,8 @@ public class first {
         }else {
             System.out.println("Wrong input!!!");
         }
+
+        System.out.println();
+        System.out.println("The number of agrs:" + args.length);
     }
 }

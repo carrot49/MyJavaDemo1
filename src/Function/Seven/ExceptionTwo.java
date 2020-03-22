@@ -1,4 +1,4 @@
-package Function.Six;
+package Function.Seven;
 
 import java.util.Scanner;
 

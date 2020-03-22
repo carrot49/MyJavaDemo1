@@ -1,6 +1,6 @@
 package Function.allAPI;
 
-import Function.Six.IllegalNameException;
+import Function.Seven.IllegalNameException;
 
 public interface CustomServiceAPI {
     void register(String name) throws IllegalNameException;

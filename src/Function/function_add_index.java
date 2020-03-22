@@ -1,7 +1,8 @@
 package Function;
 
 public class function_add_index {
-    private final static int function_number=6;
+
+    private final static int function_number=8;
 
     public static void welcomeIndex(){
         welcome_word_image();
@@ -47,6 +48,14 @@ public class function_add_index {
                 case 6:
                     System.out.print("   --Function " + i);
                     System.out.println("   Exception");
+                    break;
+                case 7:
+                    System.out.print("   --Function " + i);
+                    System.out.println("   Arr(Didn't finish)");
+                    break;
+                case 8:
+                    System.out.print("   --Function " + i);
+                    System.out.println("   Collection");
                     break;
                 default:
                     System.out.println("Unkown wrong");

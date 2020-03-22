@@ -1,2 +1,17 @@
 # Default ignored files
+*.class
+*.log
+*.lock
+
+# packge #
+*.jar
+*.war
+*.ear
+target/
+
+# idea
+.idea/
+*.iml
+
+
 /workspace.xml

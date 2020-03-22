@@ -1,5 +1,6 @@
-package Function.Six;
+package Function.Seven;
 
+import Function.Seven.IllegalNameException;
 import Function.allAPI.CustomServiceAPI;
 
 public class customRegister implements CustomServiceAPI{

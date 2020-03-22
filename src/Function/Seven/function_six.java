@@ -1,9 +1,9 @@
-package Function.Six;
+package Function.Seven;
 
 import java.io.*;
 
 public class function_six {
-    public static void bassic_function() throws IllegalNameException {
+    public static void bassic_function()throws IllegalNameException {
         FileInputStream fil1 = null;
         //IO流的开启与关闭，对象的建立有范围需要考虑，不然无法关闭IO流
         try{
