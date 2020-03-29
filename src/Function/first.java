@@ -60,6 +60,7 @@ public class first {
                     System.out.println("Unkown wrong");
                     break;
             }
+
             /*if (select_number1 == 1) {
                 System.out.print("please input number:");
             } else if (select_number1 == 2) {
@@ -67,6 +68,7 @@ public class first {
             } else {
                 System.out.println("Wrong input!");
             }*/
+
         }else {
             System.out.println("Wrong input!!!");
         }
