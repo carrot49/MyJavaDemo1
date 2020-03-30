@@ -1,7 +1,6 @@
 package Function.Eight;
 
 import java.util.*;
-import Function.Eight.TryhashCode;
 
 /**
  * @author carrot
@@ -15,9 +14,9 @@ public class function_eight {
         Collection c1 = new ArrayList();
         Set s1 = new HashSet();
 
-        person p1 = new person("yyz","20");
-        person p2 = new person("yyz","21");
-        person p3 = new person("yyz","22");
+        person p1 = new person("yyz","20",110);
+        person p2 = new person("yyz","21",115);
+        person p3 = new person("yyz","22",130);
 
         c1.add(p1);
         c1.add(p2);
@@ -72,7 +71,9 @@ public class function_eight {
             System.out.println(hashReturn);
         }
 
-        TryhashCode.createAndFindEmp();
+        tryhashCode.createAndFindEmp();
+        trySortedSet.createSortedSet();
+        MyComparator.createComparator();
 
     }
 

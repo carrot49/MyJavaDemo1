@@ -4,16 +4,16 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class TryhashCode {
+public class tryhashCode {
 
     public static void createAndFindEmp(){
 
         Set emp = new HashSet();
 
-        person emp1 = new person("cjh","21");
-        person emp2 = new person("cjh","22");
-        person emp3 = new person("cjh","23");
-        person emp4 = new person("cjh","23");
+        person emp1 = new person("cjh","21",110);
+        person emp2 = new person("cjh","22",125);
+        person emp3 = new person("cjh","23",130);
+        person emp4 = new person("cjh","23",135);
 
         emp.add(emp1);
         emp.add(emp2);
@@ -21,6 +21,7 @@ public class TryhashCode {
         emp.add(emp4);
 
         System.out.println("\n");
+        System.out.println("HashCode");
         System.out.println(emp.size());
         System.out.println(emp3.hashCode());
         System.out.println(emp4.hashCode());

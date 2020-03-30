@@ -1,20 +1,33 @@
 package Function.Eight;
 
-public class person {
+import java.lang.String;
+
+public class person implements Comparable{
 
     String name;
     String age;
+    int number;
 
     person(){}
 
-    person(String name,String age){
+    person(int number){
+        this.number = number;
+    }
+
+    person(String name, int number){
+        this.number = number;
+        this.name = name;
+    }
+
+    person(String name,String age,int number){
         this.name = name;
         this.age = age;
+        this.number = number;
     }
 
     @Override
     public String toString() {
-        return "The person name is " + name + ",and age is " + age;
+        return "The person name is " + name + ",and age is " + age + ",and the number is " + number;
     }
 
     @Override
@@ -35,4 +48,12 @@ public class person {
         }
         return false;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        int reNumber1 = this.number;
+        int reNumber2 = ((person)o).number;
+        return reNumber1-reNumber2;
+    }
+
 }
